@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'codec-pro-extrabold';
+    src: url('/site netric/font/codec-pro-extrabold.ttf');
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'codec-pro-extrabold';
+    text-decoration: none;
+}
+
+
+
+
+.main-container{
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 1px;
+   
+}
+
+.primeiro{
+    grid-area: 2 / 2 / 3 / 3; 
+    margin-top: 40px;
+    font-size: 4vw;
+    color: white;
+}
+
+.segundo{
+    grid-area: 3 / 2 / 4 / 3;
+    margin-top: 50px;
+}
+
+.terceiro{
+    grid-area: 2 / 4 / 4 / 5;
+    
+}
+
+.terceiro img{
+    border-radius: 20px;
+    box-shadow: -20px 0px 20px 1px #1f41bb ;
+   
+}
+
+.segundo button{
+    text-decoration: none;
+    padding: 15px;
+    width: 169px;
+    border-radius: 30px;
+    
+    
+}
